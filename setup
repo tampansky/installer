@@ -112,5 +112,6 @@ pip2 install requests
 pip2 install bs4
 pip install -r requirements.txt
 pip2 install -r requirements.txt
-done
+echo -e "KETIK bash installer.sh" | lolcat
+fi
 done
