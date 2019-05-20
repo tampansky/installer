@@ -20,23 +20,6 @@ white='\e[1;37m'
 nc="\e[0m"
 red='\e[1;31m'
 yellow='\e[1;33m'
-# check internet
-function ci() {
-  ping -c 1 google.com > /dev/null
-  if [[ "$?" != 0 ]]
-  then
-    echo -e $lightgreen" -----------------------------------"
-    echo -e $green" Checking For Internet: $red NOT CONNECT"
-    echo -e $lightgreen" -----------------------------------"
-    echo && sleep 0.50
-     
-  else
-    echo -e $lightgreen" -----------------------------------"
-    echo -e $green" Checking For Internet: $red CONNECTED"
-    echo -e $lightgreen" -----------------------------------"
-  fi
-}
-#function
 #BANER
 function baner(){
 clear
