@@ -38,21 +38,47 @@ sleep 0.25
 clear
 echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
-clear                   
+clear 
+echo -e $red " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $red "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $red "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $red "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear    
+echo -e $blue " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $blue "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $blue "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $blue "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear  
+echo -e $red " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $red "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $red "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $red "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear    
+echo -e $blue " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $blue "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $blue "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $blue "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear   
+echo -e $red " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $red "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $red "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $red "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear   
+echo -e $blue " ___  _  _  _  _  ___  ____   __    __    __    ____  ____ " 
+echo -e $blue "/ __)( )/ )( \/ )/ __)(_  _) /__\  (  )  (  )  ( ___)(  _ \ "
+echo -e $blue "\__ \ )  (  \  / \__ \  )(  /(__)\  )(__  )(__  )__)  )   /"
+echo -e $blue "(___/(_)\_) (__) (___/ (__)(__)(__)(____)(____)(____)(_)\_)"
+sleep 0.25
+clear            
 }
 sleep 0.25
 baner
-echo
-echo -e "  __________        __   _____    _____   ________________    __    __    __________ " | lolcat
-sleep 0.25
-echo -e " /_  __/ __ \____  / /  / ___/   /  _/ | / / ___/_  __/   |  / /   / /   / ____/ __ \ " | lolcat
-sleep 0.25
-echo -e "  / / / / / / __ \/ /   \__ \    / //  |/ /\__ \ / / / /| | / /   / /   / __/ / /_/ / " | lolcat
-sleep 0.25
-echo -e " / / / /_/ / /_/ / /______/ /  _/ // /|  /___/ // / / ___ |/ /___/ /___/ /___/ _, _/"  | lolcat
-sleep 0.25
-echo -e "/_/  \____/\____/_____/____/  /___/_/ |_//____//_/ /_/  |_/_____/_____/_____/_/ |_| " | lolcat
-sleep 0.25
+echo ""                                         
 echo
 echo -e  "---------------------------------------------" | lolcat
 sleep 0.25
@@ -83,10 +109,14 @@ echo -e "5.Admin-finder              " | lolcat
 echo -e "============================" | lolcat
 echo -e "6.EXIT                      " | lolcat
 echo -e "============================" | lolcat
-read -p "tools@installer:~#" pill
-if [$pill=1]then
-	clear
-echo -e $red "MENGHUBUNGKAN..."
+read -p "tools@installer:~#" 
+case $baner in
+#SpamBom
+"1")
+ echo -e $red "Menginstall..."
+ sleep 0.25
+ clear
+ echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
 clear
 echo -e $blue "MENGHUBUNGKAN..."
@@ -108,10 +138,12 @@ clear
 bash setup.sh
 clear
 bash SpamBom.sh
-fi
-if [$pill=2]then
-	clear
-echo -e $red "MENGHUBUNGKAN..."
+ ;;
+"2")
+echo -e $red "Menginstall..."
+ sleep 0.25
+ clear
+ echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
 clear
 echo -e $blue "MENGHUBUNGKAN..."
@@ -135,10 +167,12 @@ clear
 clang xerxes.c -o xerxes
 clear
 echo -e "${y} ./xerxes nama website target 80"
-fi
-if [$pill=3]then
-	clear
-echo -e $red "MENGHUBUNGKAN..."
+;;
+"3")
+echo -e $red "Menginstall..."
+ sleep 0.25
+ clear
+ echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
 clear
 echo -e $blue "MENGHUBUNGKAN..."
@@ -152,19 +186,17 @@ sleep 0.25
 clear
 echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
+clear
 clear
 git clone https://github.com/tampansky/virus.zip
 clear
-cd virus.zip
-clear
-unzip vbug.zip
-clear
-cd vbug
-echo -e "${y} python2 vbug.py"
-fi
-if [$pill=4]then
-	clear
-echo -e $red "MENGHUBUNGKAN..."
+echo -e "cd virus.zip, unzip vbug.zip, cd vbug" | lolcat
+;;
+"4")
+echo -e $red "Menginstall..."
+ sleep 0.25
+ clear
+ echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
 clear
 echo -e $blue "MENGHUBUNGKAN..."
@@ -184,10 +216,12 @@ clear
 echo -e "${y} Installer RED_HAWK..." | lolcat
 echo -e "${y} cd RED_HAWK" 
 echo -e "${y} php r_hawk.php"
-fi
-if [$pill=5]then
-	clear
-echo -e $red "MENGHUBUNGKAN..."
+;;
+"5")
+echo -e $red "Menginstall..."
+ sleep 0.25
+ clear
+ echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25
 clear
 echo -e $blue "MENGHUBUNGKAN..."
@@ -207,37 +241,10 @@ clear
 echo -e "${y} cara menggunakan admin finder"
 echo -e "${y} cd admin-finder"
 echo -e "${y} python admin-finder.py"
-fi
-if [$pill=6]then 
-	clear
-echo -e $red "MENGHUBUNGKAN..."
-sleep 0.25
+;;
+"6")
+$baner
 clear
-echo -e $blue "MENGHUBUNGKAN..."
-sleep 0.25
-clear
-echo -e $red "MENGHUBUNGKAN..."
-sleep 0.25
-clear
-echo -e $blue "MENGHUBUNGKAN..."
-sleep 0.25
-clear
-echo -e $red "MENGHUBUNGKAN..."
-sleep 0.25
-clear
-echo -e  "---------------------------------------------" | lolcat
-sleep 0.25
-echo -e  "|CREATOR : HadiPrasetia (TampanSKY)|" | lolcat
-sleep 0.25
-echo -e  "|Sekolah : MTs.AL-Khairiyah|" | lolcat
-sleep 0.25
-echo -e  "|TEAM : RED EYE CYBER TEAM Official|" | lolcat
-sleep 0.25
-echo -e  "|Thanks To My FAMILY AND MY GOD|" | lolcat
-sleep 0.25
-echo -e  "|AND MY GIRLFRIENDS{assyfamawarni}|" | lolcat
-sleep 0.25
-echo -e  "----------------------------------------------" | lolcat
-sleep 0.25
-echo -e "GOODBYE FRIEENNSSS..." | lolcat
-fi
+cd
+;;
+esac
