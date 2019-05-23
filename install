@@ -39,18 +39,6 @@ clear
 echo -e $red "MENGHUBUNGKAN..."
 sleep 0.25 
 clear       
-echo -e"     ___                            ______                    " | lolcat
-sleep 0.25
-echo -e "   /   |  _________ ___  __  __   / ____/___ _____ ___  ____ " | lolcat
-sleep 0.25
-echo -e"   / /| | / ___/ __ \__ \/ / / /  / /   / __ `/ __ `__ \/ __ \ " | lolcat
-sleep 0.25
-echo -e"  / ___ |/ /  / / / / / / /_/ /  / /___/ /_/ / / / / / / /_/ /" | lolcat
-sleep 0.25
-echo -e "/_/  |_/_/  /_/ /_/ /_/\__, /   \____/\__,_/_/ /_/ /_/ .___/ " | lolcat
-sleep 0.25
-echo -e "                      /____/                        /_/      " | lolcat
-sleep 0.25
 }
 sleep 0.25
 baner
@@ -86,9 +74,8 @@ echo -e "============================" | lolcat
 echo -e "6.EXIT                      " | lolcat
 echo -e "============================" | lolcat
 echo -e "root@./installer:~#" | lolcat 
-read -e fuck
-case $fuck in
-	#SpamBom
+read -e fuck case $fuck in
+#SpamBom
 ("1")apt-get install git
 apt-get install ruby 
 apt-get install curl
