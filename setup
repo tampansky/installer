@@ -46,15 +46,6 @@ pkg install figlet
 apt install cowsay
 pkg install cowsay
 gem install lolcat
-pip2 install enlighten
-apt install curl -y
-pkg install curl -y
-apt install php -y
-pkg install php -y
-apt install git -y
-pkg install git -y
-apt install python -y
-pkg install python -y
-apt install python2 -y
+echo -e "SILAHKAN KETIK bash install"
 done
-done
+esac
