@@ -73,7 +73,8 @@ echo -e "5.DDOS ATTACKER             " | lolcat
 echo -e "============================" | lolcat
 echo -e "6.EXIT                      " | lolcat
 echo -e "============================" | lolcat
-echo -e "root@./installer:~#" | lolcat read -e fuck 
+echo -e "root@./installer:~#" | lolcat 
+read -e fuck 
 case $fuck in
 #SpamBom
 ("1")
