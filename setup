@@ -29,14 +29,7 @@ apt update
 pkg update
 apt-get install ruby
 pkg install ruby
-apt upgrade -y
-pkg upgrade -y
-apt install nmap -y
-pkg install nmap -y
 apt install python
-pkg install python
-apt install python2
-pkg install python2
 apt install wget -y
 pkg install wget -y
 apt install lolcat
